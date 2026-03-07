@@ -73,7 +73,7 @@ p { margin-bottom: 1em; }
 .logo img {
   height: 48px;
   width: auto;
-  filter: brightness(0) invert(1);
+  /* no filter — logo works on dark bg as-is */
 }
 
 .site-header nav {
