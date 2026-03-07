@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | Vent Viper{{ end }}</title>
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
   {{ block "head" . }}{{ end }}
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="/" class="logo"><img src="/images/logo.png" alt="Vent Viper LLC"> Vent Viper</a>
+      <a href="{{ "/" | relURL }}" class="logo"><img src="{{ "images/logo.png" | relURL }}" alt="Vent Viper LLC"> Vent Viper</a>
       <nav>
         {{ range .Site.Menus.main }}
-        <a href="{{ .URL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>{{ .Name }}</a>
+        <a href="{{ .URL | relURL }}" {{ if $.IsMenuCurrent "main" . }}class="active"{{ end }}>{{ .Name }}</a>
         {{ end }}
       </nav>
     </div>
