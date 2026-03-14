@@ -1,11 +1,11 @@
-baseURL = "https://ventviper.com/"
+baseURL = "https://ventviperenterprises.com/"
 languageCode = "en-us"
-title = "Vent Viper | Dryer Vent Cleaning & Snow Removal | Wyckoff, NJ"
+title = "Vent Viper | Dryer Vent Cleaning, HVAC Duct Cleaning & Gutter Cleaning | Wyckoff, NJ"
 
 [params]
-  description = "Vent Viper — Wyckoff's trusted local expert for dryer vent cleaning, air duct maintenance, and snow removal. Call Danny at (201) 988-8307."
+  description = "Vent Viper — Wyckoff's trusted local expert for dryer vent cleaning, HVAC duct cleaning, and gutter cleaning. Call Danny at (201) 988-8307."
   phone = "(201) 988-8307"
-  email = "theventviperllc@hotmail.com"
+  email = "ventviperenterprises@outlook.com"
   owner = "Danny Dooner"
   location = "Wyckoff, NJ"
 
