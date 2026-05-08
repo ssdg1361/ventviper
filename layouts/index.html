@@ -1,61 +1,269 @@
 {{ define "main" }}
+
+<!-- ============== HERO ============== -->
 <section class="hero">
+  <div class="viper-ghost"></div>
   <div class="container">
-    <h1>Wyckoff's Trusted Local Pro for Vent Cleaning & Home Maintenance</h1>
-    <p class="hero-sub">Danny Dooner keeps your home safe and running right — serving Wyckoff, Franklin Lakes, Ridgewood, and surrounding Bergen County neighborhoods.</p>
-    <div class="hero-actions">
-      <a href="tel:2019888307" class="btn btn-large">📞 Call Danny: (201) 988-8307</a>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <div class="hero-eyebrow-row">
+          <span class="section-eyebrow">Operating since 2019 · Wyckoff, NJ</span>
+        </div>
+        <h1>
+          Tight ducts.<br>
+          Clean lines.<br>
+          <em>One <span class="strike">local</span> guy.</em>
+        </h1>
+        <p class="hero-sub">
+          Danny Dooner runs Vent Viper out of Wyckoff — five precision home services delivered by the same person who answers the phone. No call centers, no franchise scripts, no bait-and-switch.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:2019888307" class="btn btn-large">📞 Call Danny — (201) 988-8307</a>
+          <a href="#drop" class="btn btn-large btn-outline">See Group Rates →</a>
+          <span class="hero-callsign">Reply within 1 hr · 7 days</span>
+        </div>
+      </div>
+
+      <aside class="instrument" aria-label="Vent Viper at a glance">
+        <div class="instrument-head">
+          <span>UNIT 01 / VITALS</span>
+          <span class="led">ACTIVE</span>
+        </div>
+        <div class="instrument-stats">
+          <div class="stat">
+            <div class="num">5</div>
+            <div class="lbl">Services</div>
+          </div>
+          <div class="stat">
+            <div class="num">8+</div>
+            <div class="lbl">Towns Served</div>
+          </div>
+          <div class="stat">
+            <div class="num">1hr</div>
+            <div class="lbl">Reply Time</div>
+          </div>
+          <div class="stat">
+            <div class="num">100%</div>
+            <div class="lbl">Local · Owner-Run</div>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============== SERVICES ============== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="services-head">
+      <h2>Five trades. <span class="accent">One operator.</span></h2>
+      <p class="head-note">
+        Every service is performed by Danny himself — full path, full visibility, full accountability. Hover any line to dial in.
+      </p>
+    </div>
+
+    <div class="services-list">
+
+      <a href="tel:2019888307" class="service-row">
+        <div class="svc-num">/ 01</div>
+        <div class="svc-name">
+          <span class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h12a4 4 0 1 0-4-4"/><path d="M3 18h15a4 4 0 1 0-4-4"/><path d="M3 6h8"/></svg>
+          </span>
+          Dryer Vent Cleaning
+        </div>
+        <div class="svc-desc">Full-path lint extraction from dryer to exterior cap. Reduces fire risk, cuts dry times, lowers energy bills. Photo verification included.</div>
+        <div class="svc-cta">Book ↗</div>
+      </a>
+
+      <a href="tel:2019888307" class="service-row">
+        <div class="svc-num">/ 02</div>
+        <div class="svc-name">
+          <span class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/><path d="M7 14h2"/><path d="M11 14h2"/><path d="M15 14h2"/></svg>
+          </span>
+          Air Duct Cleaning
+        </div>
+        <div class="svc-desc">Whole-home HVAC and central air ductwork — supply, return, registers, and blower. Cleaner air, more efficient system, longer equipment life.</div>
+        <div class="svc-cta">Book ↗</div>
+      </a>
+
+      <a href="tel:2019888307" class="service-row">
+        <div class="svc-num">/ 03</div>
+        <div class="svc-name">
+          <span class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h18l-1 4H4z"/><path d="M5 12v7"/><path d="M19 12v7"/><path d="M9 16l-2 4"/><path d="M15 16l2 4"/></svg>
+          </span>
+          Gutter Cleaning &amp; Installation
+        </div>
+        <div class="svc-desc">Hand-clearing, downspout flushing, and full seamless aluminum gutter installs with leaf-guard options. Stops ice dams, foundation rot, and overflow damage.</div>
+        <div class="svc-cta">Book ↗</div>
+      </a>
+
+      <a href="tel:2019888307" class="service-row">
+        <div class="svc-num">/ 04</div>
+        <div class="svc-name">
+          <span class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4l-2 6h4l-2 6"/><path d="M5 14c0 4 3 6 7 6s7-2 7-6"/><path d="M5 14c0-2 2-3 4-3"/></svg>
+          </span>
+          Pressure Washing
+        </div>
+        <div class="svc-desc">Driveways, walkways, decks, siding, patios, fences. Soft-wash on delicate surfaces, full-pressure on hardscape. Curb appeal, restored.</div>
+        <div class="svc-cta">Book ↗</div>
+      </a>
+
+      <a href="tel:2019888307" class="service-row">
+        <div class="svc-num">/ 05</div>
+        <div class="svc-name">
+          <span class="svc-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"/><path d="M9 6h6"/><path d="M8 10c0-2 2-4 4-4s4 2 4 4v3a4 4 0 0 1-8 0z"/><path d="M6 14h2"/><path d="M16 14h2"/><path d="M5 18h2"/><path d="M17 18h2"/><path d="M12 13v8"/></svg>
+          </span>
+          Pest Control
+        </div>
+        <div class="svc-desc">Targeted residential pest treatment — ants, spiders, mice, wasps, ticks, mosquitoes. Quarterly programs available. Family- and pet-conscious products.</div>
+        <div class="svc-cta">Book ↗</div>
+      </a>
+
     </div>
   </div>
 </section>
 
-<section class="services">
+<!-- ============== NEIGHBORHOOD DROP (Group Rate) ============== -->
+<section class="drop" id="drop">
   <div class="container">
-    <h2>What We Do</h2>
-    <div class="services-grid">
-      <div class="service-card">
-        <h3>🔥 Dryer Vent Cleaning</h3>
-        <p>Clogged dryer vents are one of the top causes of house fires. Danny cleans the full path from your dryer to the exterior exhaust — and shows you exactly what was trapped inside. Safety first, every time.</p>
+
+    <div class="drop-head">
+      <span class="section-eyebrow">Group Rate Program · Bergen County</span>
+      <h2>The <span class="venom-mark">Neighborhood Drop</span></h2>
+    </div>
+
+    <div class="drop-grid">
+
+      <div class="drop-pitch">
+        <p>
+          Get your block in on it. When neighbors book the same service in the same week, the whole street saves. Danny knocks out one route — you and your neighbors all save 15–30% off the standard rate.
+        </p>
+        <p style="color: var(--mute); font-size: .95rem;">
+          Think of it as a Groupon you actually trust — because the deal isn't with a stranger, it's with the guy three doors down.
+        </p>
+
+        <div class="drop-tiers">
+          <div class="tier">
+            <div class="tier-count">3+</div>
+            <div class="tier-label">Three neighbors, same week<small>Same service · same block</small></div>
+            <div class="tier-save">SAVE 15%</div>
+          </div>
+          <div class="tier">
+            <div class="tier-count">5+</div>
+            <div class="tier-label">Five-house cluster<small>Boost the route, boost the savings</small></div>
+            <div class="tier-save">SAVE 22%</div>
+          </div>
+          <div class="tier">
+            <div class="tier-count">8+</div>
+            <div class="tier-label">Whole block / cul-de-sac<small>Best value · top of the schedule</small></div>
+            <div class="tier-save">SAVE 30%</div>
+          </div>
+        </div>
       </div>
-      <div class="service-card">
-        <h3>🌬️ HVAC & Central Air Duct Cleaning</h3>
-        <p>Cleaner ducts mean better air quality and a more efficient HVAC system. We clean residential ductwork so your family breathes easier.</p>
+
+      <div class="drop-card">
+        <div>
+          <span class="badge">⚡ Limited release · seasonal</span>
+          <h3 style="margin-top: 18px;">Run a Drop on your street.</h3>
+          <p style="margin-top: 12px;">
+            You don't have to organize anything fancy. Text the group chat. Post in the Wyckoff Facebook group. Tell Danny who's interested — he handles the routing and pricing.
+          </p>
+        </div>
+
+        <div class="how">
+          <div class="how-step"><b>01</b><span>Pick a service · pick a week</span></div>
+          <div class="how-step"><b>02</b><span>Round up 3+ neighbors on the same block</span></div>
+          <div class="how-step"><b>03</b><span>Danny confirms the route, locks in the discount</span></div>
+          <div class="how-step"><b>04</b><span>Everyone pays the group rate · everyone wins</span></div>
+        </div>
+
+        <a href="tel:2019888307" class="btn btn-venom">Start a Drop — Call Danny</a>
       </div>
-      <div class="service-card">
-        <h3>🍂 Gutter Cleaning</h3>
-        <p>Overflowing gutters lead to water damage, foundation issues, and ice dams in winter. We keep your gutters clear so your home stays protected.</p>
-      </div>
+
     </div>
   </div>
 </section>
 
+<!-- ============== WHY LOCAL ============== -->
 <section class="why-local">
   <div class="container">
-    <h2>Why Wyckoff Trusts Vent Viper</h2>
-    <div class="trust-points">
-      <div class="trust-point">
-        <strong>You Call Danny, Not a Call Center</strong>
-        <p>When you dial (201) 988-8307, Danny picks up. No automated menus, no dispatchers — just a local pro who knows your neighborhood.</p>
+    <div class="why-grid">
+      <div>
+        <span class="section-eyebrow" style="color: var(--mid)">Why Wyckoff trusts</span>
+        <h2 style="margin-top: 18px;">Your <em>neighbor</em> — not a franchise.</h2>
       </div>
-      <div class="trust-point">
-        <strong>Your Neighbor, Not a Franchise</strong>
-        <p>Danny lives and works right here in Wyckoff. He's the guy your neighbors recommend on Nextdoor and in the local Facebook groups.</p>
-      </div>
-      <div class="trust-point">
-        <strong>Hyper-Local Coverage</strong>
-        <p>Vent Viper focuses on Wyckoff, Franklin Lakes, Ridgewood, Glen Rock, and the surrounding area — which means faster response times and personal attention.</p>
+
+      <div class="trust-points">
+        <div class="trust-point">
+          <div class="tp-num">/ A</div>
+          <div>
+            <strong>You call Danny. Danny picks up.</strong>
+            <p>No phone trees, no dispatcher, no third-party booking app. Dial (201) 988-8307 and you're talking to the guy who's going to show up.</p>
+          </div>
+        </div>
+        <div class="trust-point">
+          <div class="tp-num">/ B</div>
+          <div>
+            <strong>Recommended on Nextdoor &amp; the Wyckoff FB groups.</strong>
+            <p>That kind of trust doesn't come from a marketing budget. It comes from showing up, doing great work, and being easy to deal with — over and over, on the same handful of streets.</p>
+          </div>
+        </div>
+        <div class="trust-point">
+          <div class="tp-num">/ C</div>
+          <div>
+            <strong>Hyper-local. Faster response times.</strong>
+            <p>Wyckoff, Franklin Lakes, Ridgewood, Glen Rock, Midland Park, Ho-Ho-Kus, Allendale, Waldwick. Tight service area means same-week scheduling on most jobs.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="cta-bottom">
+<!-- ============== QUOTES MARQUEE ============== -->
+<section class="quotes">
   <div class="container">
-    <h2>Need a Vent Cleanout or Gutter Cleaning?</h2>
-    <p>Call or text Danny today for a quick quote. Most jobs are done the same week.</p>
-    <div class="hero-actions">
-      <a href="tel:2019888307" class="btn btn-large">📞 (201) 988-8307</a>
-      <a href="mailto:ventviperenterprises@outlook.com" class="btn btn-large btn-outline">✉️ Email Danny</a>
+    <div class="quotes-head">
+      <h2>What the block is saying.</h2>
+      <span class="section-eyebrow">Verified neighbors · Bergen County</span>
+    </div>
+  </div>
+  <div class="quotes-marquee">
+    <!-- duplicated set for seamless loop -->
+    <div class="quote-pill"><p>"Danny showed me exactly how much lint was trapped — and why it was a fire hazard. Professional and tidy."</p><cite>— Wyckoff homeowner</cite></div>
+    <div class="quote-pill"><p>"He's a local Wyckoff guy and knows exactly what he's doing. Support local."</p><cite>— Wyckoff homeowner</cite></div>
+    <div class="quote-pill"><p>"Responded right away when my dryer vent was clogged. The best in town."</p><cite>— Wyckoff homeowner</cite></div>
+    <div class="quote-pill"><p>"The guy just gets it done — no runaround, shows up on time, fair price."</p><cite>— Spencer S. · Glen Rock</cite></div>
+    <div class="quote-pill"><p>"Danny showed me exactly how much lint was trapped — and why it was a fire hazard. Professional and tidy."</p><cite>— Wyckoff homeowner</cite></div>
+    <div class="quote-pill"><p>"He's a local Wyckoff guy and knows exactly what he's doing. Support local."</p><cite>— Wyckoff homeowner</cite></div>
+    <div class="quote-pill"><p>"Responded right away when my dryer vent was clogged. The best in town."</p><cite>— Wyckoff homeowner</cite></div>
+    <div class="quote-pill"><p>"The guy just gets it done — no runaround, shows up on time, fair price."</p><cite>— Spencer S. · Glen Rock</cite></div>
+  </div>
+</section>
+
+<!-- ============== BOTTOM CTA ============== -->
+<section class="cta-bottom">
+  <div class="viper-ghost"></div>
+  <div class="container">
+    <span class="section-eyebrow" style="color: var(--mid)">Ready when you are</span>
+    <h2 style="margin-top: 18px;">Call Danny. <em>Done by Friday.</em></h2>
+    <p class="lead">Most jobs scheduled the same week. Group rates available for any service. Text-friendly.</p>
+
+    <a href="tel:2019888307" class="phone-massive">
+      <span class="label">Dial</span>
+      (201) 988-8307
+    </a>
+
+    <div class="hero-actions" style="justify-content: center;">
+      <a href="mailto:ventviperenterprises@outlook.com" class="btn btn-outline" style="border-color: var(--ink); color: var(--ink);">✉️ Email Danny</a>
+      <a href="#drop" class="btn btn-venom">⚡ Start a Group Drop</a>
     </div>
   </div>
 </section>

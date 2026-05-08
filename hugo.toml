@@ -1,9 +1,9 @@
 baseURL = "https://ventviperenterprises.com/"
 languageCode = "en-us"
-title = "Vent Viper | Dryer Vent Cleaning, HVAC Duct Cleaning & Gutter Cleaning | Wyckoff, NJ"
+title = "Vent Viper | Dryer Vent, Air Duct, Gutter, Pressure Washing & Pest Control | Wyckoff, NJ"
 
 [params]
-  description = "Vent Viper — Wyckoff's trusted local expert for dryer vent cleaning, HVAC duct cleaning, and gutter cleaning. Call Danny at (201) 988-8307."
+  description = "Vent Viper — Wyckoff's local pro for dryer vent cleaning, air duct cleaning, gutter cleaning & install, pressure washing, and pest control. Group rates available. Call Danny at (201) 988-8307."
   phone = "(201) 988-8307"
   email = "ventviperenterprises@outlook.com"
   owner = "Danny Dooner"
@@ -11,14 +11,18 @@ title = "Vent Viper | Dryer Vent Cleaning, HVAC Duct Cleaning & Gutter Cleaning 
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "Services"
+    url = "/#services"
     weight = 1
+  [[menu.main]]
+    name = "Group Rates"
+    url = "/#drop"
+    weight = 2
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 2
-  [[menu.main]]
-    name = "Testimonials"
-    url = "/testimonials/"
     weight = 3
+  [[menu.main]]
+    name = "Reviews"
+    url = "/testimonials/"
+    weight = 4

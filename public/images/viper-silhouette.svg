@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 450" fill="white">
+  <!-- Viper head silhouette based on Vent Viper logo -->
+  <!-- Hood/head outer shape -->
+  <path d="
+    M 250 10
+    C 180 10, 100 60, 70 140
+    C 50 190, 55 230, 80 270
+    L 130 340
+    L 170 400
+    C 180 420, 190 440, 210 445
+    L 220 440
+    L 200 390
+    L 190 350
+    L 230 310
+    L 250 350
+    L 270 310
+    L 310 350
+    L 300 390
+    L 280 440
+    L 290 445
+    C 310 440, 320 420, 330 400
+    L 370 340
+    L 420 270
+    C 445 230, 450 190, 430 140
+    C 400 60, 320 10, 250 10
+    Z
+  " opacity="1"/>
+  <!-- Eyes -->
+  <path d="
+    M 175 160
+    L 220 140
+    L 230 175
+    L 185 185
+    Z
+  " fill="black" opacity="0.8"/>
+  <path d="
+    M 325 160
+    L 280 140
+    L 270 175
+    L 315 185
+    Z
+  " fill="black" opacity="0.8"/>
+  <!-- Center nose slit -->
+  <circle cx="250" cy="230" r="6" fill="black" opacity="0.6"/>
+  <!-- Forehead ridge lines -->
+  <path d="M 250 50 L 250 120" stroke="black" stroke-width="2" fill="none" opacity="0.3"/>
+  <path d="M 200 80 L 220 150" stroke="black" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <path d="M 300 80 L 280 150" stroke="black" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <!-- Jaw/scale lines -->
+  <path d="M 160 200 L 200 250 L 230 300" stroke="black" stroke-width="1.5" fill="none" opacity="0.2"/>
+  <path d="M 340 200 L 300 250 L 270 300" stroke="black" stroke-width="1.5" fill="none" opacity="0.2"/>
+</svg>
