@@ -161,7 +161,12 @@ p { line-height: 1.6; }
   font-size: 1.15rem;
   letter-spacing: -.01em;
 }
-.logo img { height: 38px; width: auto; }
+.logo img {
+  height: 38px;
+  width: auto;
+  /* Source logo is black on transparent; invert for the dark theme so it renders white */
+  filter: invert(1) brightness(1.08);
+}
 .logo .lockup {
   display: flex;
   flex-direction: column;
@@ -318,25 +323,28 @@ p { line-height: 1.6; }
   pointer-events: none;
   z-index: 0;
 }
-/* viper silhouette ghost */
+/* viper silhouette ghost — centered watermark behind hero */
 .hero .viper-ghost {
   position: absolute;
-  right: -120px;
+  left: 50%;
   top: 50%;
-  transform: translateY(-50%);
-  width: 720px;
-  height: 720px;
+  transform: translate(-50%, -50%);
+  width: min(900px, 92vw);
+  height: min(900px, 92vw);
   background: url('/images/viper-silhouette.svg') center/contain no-repeat;
-  opacity: .055;
+  opacity: .06;
   z-index: 0;
   pointer-events: none;
+}
+@media (max-width: 720px) {
+  .hero .viper-ghost { opacity: .04; }
 }
 
 .hero .container { position: relative; z-index: 2; }
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr;
   gap: 72px;
   align-items: end;
 }
@@ -679,6 +687,15 @@ p { line-height: 1.6; }
   color: var(--venom);
   letter-spacing: .04em;
 }
+
+/* Solo tier — sits on its own, so make it feel intentional rather than lonely */
+.tier.tier-solo {
+  padding: 22px 24px;
+  border-color: var(--venom);
+  background: rgba(214,246,61,.06);
+}
+.tier.tier-solo .tier-count { font-size: 2.2rem; color: var(--venom); }
+.tier.tier-solo .tier-save { font-size: 1.05rem; }
 
 .drop-card {
   border: 1px solid var(--venom);
